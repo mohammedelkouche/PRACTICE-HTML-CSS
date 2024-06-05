@@ -1,0 +1,41 @@
+button {
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight:bold;
+    /* font-weight:30px; */
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+}
+.subscribe{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(235, 87, 87);
+    margin-right: 10px;
+    transition: opacity 0.2s;
+}
+/* pseudo-class  hover active ...*/
+.subscribe:hover{
+    /* background-color: green; */
+    opacity: 0.6;
+}
+.subscribe:active{
+    /* it is when we clic in the bouthon */
+    /* background-color: blue; */
+    opacity: 0.4;
+}
+/*  dcds */
+.join
+{
+    color:black;
+    background-color: white;
+    border-color: blue;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 1s, color 1s, box-shadow 0.2s;
+}
+.join:hover{
+    background-color: rgb(88, 88, 204);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
