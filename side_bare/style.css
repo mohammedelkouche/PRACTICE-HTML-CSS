@@ -19,8 +19,66 @@
 }
 
 .container .sidenav{
-    width: 25%;
+    width: 10%;
     height: 100vh;
-    padding: 30px 35px;
+    padding: 0px 35px;
     background-color: black;
+    /* text-align: center; */
+    /* border-radius: 5px; */
+}
+
+.logo{
+    /* margin: 20px 0px; */
+}
+.logo h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    /* margin: 20px 0px; */
+}
+
+.search_bar{
+    margin-top: 45px;
+    position: relative;
+}
+
+.search_bar i{
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    left: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -35%); */
+}
+
+.search_bar input{
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.sidenav .icon_items ul{
+    list-style: none;
+    margin-top: 30px;
+    padding: 0px 10px;
+}
+
+.sidenav .icon_items ul li{
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 15px 0px;
+    
+}
+
+.sidenav .icon_items ul li:hover{
+    background: var(--blue);
+}
+
+.sidenav .icon_items ul li i{
+    font-size: 35px;
 }
